@@ -1,9 +1,10 @@
+import os
 import requests
 from bs4 import BeautifulSoup
 
 elwing_url = "https://elwingboards.com"
 elwing_parts_url = elwing_url + "/collections/powerkit-replacement-parts"
-webhook_discord = "https://discord.com/api/webhooks/1025867563437146173/hQNMuzkFP72paAh0k3RSDnvMzHnXTqy5HID9JzSpEzQvj-s1lRa_KaNoTcA-ovhhZDUN"
+webhook_discord = os.getenv("WEBHOOK_DISCORD")
 
 product_targets = ["Moteur Powerkit V2", "Moteur Powerkit V1", "Paire de gommes de roue motrice V2"]
 
