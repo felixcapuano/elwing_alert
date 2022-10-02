@@ -8,7 +8,7 @@ elwing_url = "https://elwingboards.com"
 elwing_parts_url = elwing_url + "/collections/powerkit-replacement-parts"
 webhook_discord = os.getenv("WEBHOOK_DISCORD")
 
-product_targets = ["Moteur Powerkit V2", "Moteur Powerkit V1", "Chargeur Standard"]
+product_targets = ["Moteur Powerkit V2", "Moteur Powerkit V1"]
 
 logging.basicConfig(format="%(asctime)s %(message)s", stream=sys.stdout, level=logging.INFO)
 
