@@ -28,5 +28,5 @@ jobs:
       - name: execute py script # run main.py
         env:
           WEBHOOK_DISCORD: ${{ secrets.WEBHOOK_DISCORD }}
-        run: python -m elwing_alert.main
+        run: python -m elwing_alert
           
